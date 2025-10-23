@@ -1033,7 +1033,7 @@ align-items: center;
   margin: 0px 0px 0px 20px;
 }
 .checkout-form .name-form input{
-  width: 100%;
+  width: 90%;
   padding: 15px;
   
 }
@@ -1050,7 +1050,7 @@ align-items: center;
   margin: 0px 20px 40px 20px;
 }
 .checkout-form input{
-   width: 70%;
+   width: 80%;
   padding: 15px;
   border-radius: 8px;
   margin-top: 20px;
@@ -1060,7 +1060,7 @@ align-items: center;
   border: 1px solid #7c4824;
 }
 .checkout-form select {
-  width: 70%;
+  width: 80%;
   padding: 15px;
   border-radius: 8px;
   margin-top: 20px;
