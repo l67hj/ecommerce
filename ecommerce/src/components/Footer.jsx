@@ -12,7 +12,7 @@ const handleSubmit = (e) => {
     setErrorMessage('Please enter a valid email address.');
     return;
   }
-  console.log('Subscribed with:', email);
+  console.log('Customer Subscribed with:', email);
   setSuccessMessage('Thank you for subscribing!👍');
   setEmail("")
   setTimeout(() => {
@@ -76,8 +76,8 @@ const handleSubmit = (e) => {
            </div>
       </div>
       <div className="final">
-              <i className="fa-regular fa-copyright"></i>
-              <p>2025 KRbako. All Rights Reserved</p>
+              {/* <i className="fa-regular fa-copyright"></i> */}
+              <p>&copy; 025 KRbako. All Rights Reserved</p>
       </div>
 
     </div>

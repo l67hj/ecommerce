@@ -44,7 +44,7 @@ function ReceiptPage() {
     
         {receipt.cart.map((item) => (
           <div key={item.id}>
-           <p>{item.title}</p>  - {item.quantity} - <span>${item.price * item.quantity}</span>
+           <p>{item.title}</p>  &times; {item.quantity} - <span>${item.price * item.quantity}</span>
           </div>
         ))}
     
