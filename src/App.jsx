@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import SearchIcon from "./components/SearchIcon";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import ProductDetails from "./components/productdetails";
 import Searchpage from "./components/searchpage";
 import CartIcon from "./components/cartIcon";
@@ -89,7 +89,7 @@ function App() {
       <Navbar cart={cart} />
 
       <Routes>
-        <Route path="/" element={<Home  addToCart={addToCart}/>} />
+        {/* <Route path="/" element={<Home  addToCart={addToCart}/>} /> */}
         <Route
           path="/"
           element={
