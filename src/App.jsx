@@ -14,7 +14,7 @@ import CartIcon from "./components/CartIcon";
 import CheckoutPage from "./components/checkoutpage";
 import ReceiptPage from "./components/receipt";
 import Cartpage from "./components/cartpage";
-import Product from "./components/product";
+import Product from "./components/Product";
 
 function App() {
   const [cart, setCart] = useState([]);
