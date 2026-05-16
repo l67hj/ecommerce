@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Product from "./components/Product";
+
 import Navbar from "./components/Navbar";
 import About from "./components/about";
 import Contact from "./components/Contact";
@@ -14,6 +14,7 @@ import CartIcon from "./components/CartIcon";
 import CheckoutPage from "./components/checkoutpage";
 import ReceiptPage from "./components/receipt";
 import Cartpage from "./components/cartpage";
+import Product from "./components/product";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -93,7 +94,7 @@ function App() {
         <Route
           path="/"
           element={
-            <Product
+            <Home
               cart={cart}
               setCart={setCart}
               addToCart={addToCart}
@@ -102,7 +103,7 @@ function App() {
         />
 
         <Route
-          path="/product"
+          path="/Product"
           element={
             <Product
               cart={cart}
