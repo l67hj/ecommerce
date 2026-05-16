@@ -8,7 +8,7 @@ import About from "./components/about";
 import Contact from "./components/Contact";
 import SearchIcon from "./components/SearchIcon";
 import Footer from "./components/Footer";
-import ProductDetails from "./components/productdetails";
+import ProductDetails from "./components/ProductDetails";
 import Searchpage from "./components/searchpage";
 import CartIcon from "./components/CartIcon";
 import CheckoutPage from "./components/checkoutpage";
