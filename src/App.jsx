@@ -9,11 +9,11 @@ import Contact from "./components/Contact";
 import SearchIcon from "./components/SearchIcon";
 import Footer from "./components/Footer";
 import ProductDetails from "./components/ProductDetails";
-import Searchpage from "./components/searchpage";
+import Searchpage from "./components/Searchpage";
 import CartIcon from "./components/CartIcon";
 import CheckoutPage from "./components/checkoutpage";
-import ReceiptPage from "./components/receipt";
-import Cartpage from "./components/cartpage";
+import ReceiptPage from "./components/Receipt";
+import Cartpage from "./components/Cartpage";
 import Product from "./components/Product";
 
 function App() {
@@ -146,7 +146,7 @@ function App() {
         />
 
         <Route
-          path="/productdetails/:id"
+          path="/productDetails/:id"
           element={<ProductDetails addToCart={addToCart} />}
         />
 

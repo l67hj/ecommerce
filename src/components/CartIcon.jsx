@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Cartpage from "./cartpage";
+import Cartpage from "./Cartpage";
 
 function CartIcon({ cart }) {
 

@@ -1,5 +1,5 @@
 import Product from "./product";
-import Searchpage from "./searchpage";
+import Searchpage from "./Searchpage";
 
 
 
