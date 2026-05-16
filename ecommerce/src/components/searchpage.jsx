@@ -66,7 +66,7 @@ function Searchpage({ cart, addToCart }) {
 
     setFiltered(result);
   } else {
-    setFiltered();
+    setFiltered([]);
   }
 }, [query, availability, price, relevance, products]);
 
